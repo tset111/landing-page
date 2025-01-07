@@ -24,9 +24,45 @@ body {
     gap: 24px;
 }
 
-a {
+p, a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
 }
 
+.nav {
+    background-color: #1F2937;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 90px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.hero-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.nav-image {
+    height: 300px;
+    width: 600px;
+}
+
+.nav button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+    width: 150px;
+    height: 40px;
+
+}
