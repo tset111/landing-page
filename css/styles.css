@@ -124,7 +124,45 @@ p, a {
     align-items: flex-end;
     font-size: 18px;
     font-weight: bold;
+    margin-top: 16px;
     width: 660px;
 }
 
+.registration {
+    display: flex;
+    background-color:white;
+    justify-content: center;
+    padding: 100px 200px;
+}
 
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    width: 900px;
+    padding: 30px;
+    gap: 48px;
+    border-radius: 12px
+    
+}
+
+.banner-text {
+    font-weight: bold;
+}
+
+.banner-text span {
+    font-weight: 400;
+    padding-top: 5px;
+    display: block;
+}
+
+.sign-up {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid #E5E7EB; 
+    color: #E5E7EB;
+    border-radius: 12px;
+}
