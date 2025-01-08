@@ -44,6 +44,7 @@ p, a {
     flex-direction: column;
     width: 600px;
 }
+
 .hero-text {
     font-size: 48px;
     color: #F9FAF8;
@@ -165,4 +166,12 @@ p, a {
     border: 2px solid #E5E7EB; 
     color: #E5E7EB;
     border-radius: 12px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
